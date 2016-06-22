@@ -66,5 +66,8 @@ update-locale LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 printf "alias rs='rails s -b 0.0.0.0'\nalias rc='rails c'\nalias txi='cd /vagrant/ultaxi'\nalias sr='screen -r'\nalias restart='sudo shutdown -r0'" > ~/.bash_aliases
 
+sudo apt-get install qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base gstreamer1.0-tools gstreamer1.0-x
+sudo apt-get install libqt4-dev libqtwebkit-dev
+
 
 echo 'all set, rock on!'
